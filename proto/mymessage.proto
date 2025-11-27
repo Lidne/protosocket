@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+option go_package = "backend/internal/proto";
+
+message MyMessage{
+  required string title= 1;
+  required int32 id = 2;
+  optional string text = 3;
+}
